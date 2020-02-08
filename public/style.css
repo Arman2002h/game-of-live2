@@ -1,0 +1,17 @@
+.control_dir{
+	display: inline;
+	width: calc(100% - 500px);
+	height: 500px;
+	float: right;
+}
+input[type=number],button{
+	text-align: center;
+	width: 45px;
+	height: 45px;
+}
+
+@media screen and (max-width: 864px) {
+	.control_dir{
+		width:100%;
+	}
+}
